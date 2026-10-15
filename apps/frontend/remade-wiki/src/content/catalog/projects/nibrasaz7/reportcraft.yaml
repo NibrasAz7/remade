@@ -1,0 +1,15 @@
+# Scope and limitations are maintainer-reported in the repository README and vision.md.
+slug: reportcraft
+name: ReportCraft
+authors: [nibrasaz7]
+repository: https://github.com/NibrasAz7/ReportCraft
+docs: https://github.com/NibrasAz7/ReportCraft#readme
+originals: [microsoft-power-bi, sap-businessobjects]
+category: productivity
+languages: [Rust]
+platforms: [Linux, macOS, Windows, Web]
+status: alpha
+compatibility: partial
+description: An independent Rust business-intelligence studio targeting Microsoft Power BI and SAP BusinessObjects workflows, with a columnar table store, star-schema relationships, filter-context measures (SUM, AVERAGE, DIVIDE, CALCULATE), grouped queries, an egui desktop Studio (Report, Data and Model views), headless SVG and standalone HTML report export, CLI and MCP automation.
+license: MIT OR Apache-2.0
+limitations: Alpha; compatibility is maintainer-reported. Supports CSV/TSV ingestion, one-to-many star-schema relationships, core aggregations, CALCULATE filter overrides, desktop Studio views, and headless SVG/HTML rendering. Live database/warehouse connectors, query folding, row-context iterators, time intelligence, .pbix/.pbip import, and paginated PDF output are not yet implemented.
