@@ -1,0 +1,15 @@
+# Scope and limitations are maintainer-reported in the repository README and vision.md.
+slug: projectcraft
+name: ProjectCraft
+authors: [nibrasaz7]
+repository: https://github.com/NibrasAz7/ProjectsCraft
+docs: https://github.com/NibrasAz7/ProjectsCraft#readme
+originals: [jira, monday, asana, clickup, microsoft-project]
+category: productivity
+languages: [Rust]
+platforms: [Linux, macOS, Windows, Web]
+status: alpha
+compatibility: partial
+description: An independent Rust project-management suite targeting Microsoft Project, Jira, monday.com, Asana and ClickUp workflows in one document model, with WBS hierarchies, CPM critical-path scheduling, task constraints, agile Kanban/Scrum boards, priority-rule resource levelling, Earned Value Management, Monte Carlo risk simulation, MSPDI XML/Primavera XER/CSV/Jira JSON interop, Studio UI, CLI and MCP.
+license: MIT OR Apache-2.0
+limitations: Alpha; compatibility is maintainer-reported. Binary Microsoft Project .mpp OLE container parsing is not yet implemented (use MSPDI .xml or Primavera .xer for schedule interchange). Real-time Automerge CRDT collaboration, web WASM packaging, and signed OS installers are still in progress.
