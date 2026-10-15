@@ -1158,3 +1158,9 @@
   name: FL Studio Mobile
   url: https://www.image-line.com/fl-studio-mobile
   category: creative
+
+- slug: sap-businessobjects
+  name: SAP BusinessObjects BI
+  url: https://www.sap.com/products/technology-platform/bi-platform.html
+  category: productivity
+  aliases: [SAP BI, SAP Business Intelligence, BusinessObjects]
