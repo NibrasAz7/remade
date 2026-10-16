@@ -10,6 +10,6 @@ languages: [Rust]
 platforms: [Linux, macOS, Windows, Web]
 status: alpha
 compatibility: partial
-description: An independent Rust business-intelligence studio targeting Microsoft Power BI and SAP BusinessObjects workflows, with a columnar table store, star-schema relationships, filter-context measures (SUM, AVERAGE, DIVIDE, CALCULATE), grouped queries, an egui desktop Studio (Report, Data and Model views), headless SVG and standalone HTML report export, CLI and MCP automation.
+description: An independent Rust business-intelligence studio targeting Microsoft Power BI and SAP BusinessObjects workflows, with a columnar store, Power Query step transforms and SQL query folding, star-schema relationships, DAX-class measures (SUMX, CALCULATE, TOTALYTD), Row-Level Security, Power BI TMDL interop, egui Studio, SVG/HTML/PDF 1.4 export, report bursting, CLI and MCP.
 license: MIT OR Apache-2.0
-limitations: Alpha; compatibility is maintainer-reported. Supports CSV/TSV ingestion, one-to-many star-schema relationships, core aggregations, CALCULATE filter overrides, desktop Studio views, and headless SVG/HTML rendering. Live database/warehouse connectors, query folding, row-context iterators, time intelligence, .pbix/.pbip import, and paginated PDF output are not yet implemented.
+limitations: Alpha; compatibility is maintainer-reported. Live database wire protocols (PostgreSQL/SQL Server/Oracle), binary Excel .xlsx/Parquet readers, and proprietary binary .pbix container parsing (use Power BI .pbip/.tmdl text format) are not yet implemented.
