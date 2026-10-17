@@ -1,0 +1,26 @@
+# DRAFT — pending maintainer-facing submission.
+#
+# History: submitted as "texcraft"; renamed to warraqcraft because
+# POLICY.md §5 requires a name distinct from jamespfennell/texcraft
+# (published crates + texcraft.dev) and LocalLeaf's texcraft-core.
+#
+# Originals chosen per POLICY.md §1.1/§1.5 (original must be closed
+# source, so TeXstudio GPL and Overleaf AGPL are out):
+#  - texpad: ships a built-in typesetter, works without an installed
+#    TeX distribution — matches WarraqCraft's bundled-Tectonic /
+#    embedded-engine direction.
+#  - winedt: classic Windows shareware TeX front-end; WarraqCraft's
+#    Windows desktop studio + external system-TeX support matches.
+slug: warraqcraft
+name: WarraqCraft
+authors: [nibrasaz7]
+repository: https://github.com/NibrasAz7/warraqcraft
+originals: [texpad, winedt]
+category: productivity
+languages: [Rust]
+platforms: [Windows]
+status: alpha
+compatibility: targeting
+description: Independent, local-first desktop LaTeX authoring environment — project tree and multi-file awareness, real PDF compile and preview with SyncTeX forward/inverse navigation, template gallery, bibliography-aware cite insertion, local snapshot history, spell-check, and a JSON control surface (CLI/TCP/MCP) — targeting Texpad/WinEdt-class behaviour.
+license: MIT OR Apache-2.0
+limitations: Alpha. Compilation works with a bundled Tectonic binary (no installed TeX needed) or a detected system engine; the in-house typesetter remains a research track. Arabic/RTL support exists as a curated template, not yet bidi editing. Windows is the verified platform; Linux/macOS/Web builds are planned.

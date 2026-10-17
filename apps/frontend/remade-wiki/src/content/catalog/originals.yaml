@@ -1292,3 +1292,14 @@
   url: https://essay.app/
   category: productivity
   aliases: [essay.app]
+
+- slug: texpad
+  name: Texpad
+  url: https://www.texpad.com/
+  category: productivity
+  aliases: [Texpad TeX editor]
+
+- slug: winedt
+  name: WinEdt
+  url: https://www.winedt.com/
+  category: productivity
