@@ -1292,13 +1292,20 @@
   url: https://essay.app/
   category: productivity
   aliases: [essay.app]
-
+- slug: keyshot
+  name: KeyShot
+  url: https://www.keyshot.com/
+  category: creative
+  aliases: [KeyShot Studio]
+- slug: calibre
+  name: Calibre
+  url: https://calibre-ebook.com/
+  category: productivity
 - slug: texpad
   name: Texifier
   url: https://www.texifier.com/
   category: productivity
   aliases: [Texpad, Texpad TeX editor]
-
 - slug: winedt
   name: WinEdt
   url: https://www.winedt.com/
