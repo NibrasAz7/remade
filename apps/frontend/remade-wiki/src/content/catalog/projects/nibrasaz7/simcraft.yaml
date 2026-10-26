@@ -12,9 +12,11 @@ languages:
   - Rust
 platforms:
   - Windows
+  - macOS
+  - Linux
 status: alpha
 compatibility: partial
 description: An independent Rust block-diagram simulator for Simulink-style workflows. Includes a typed-signal kernel with algebraic-loop detection, fixed-step Euler and RK4 plus adaptive RK45 solvers, 25 blocks, a .simcraft JSON model format, an egui Studio editor, a headless CLI and a command layer integrated with MatCraft workspaces.
 license: MIT OR Apache-2.0
-limitations: Early development; compatibility is maintainer-reported. No .slx/.mdl import or code generation is documented. Multirate and zero-crossing rigor, subsystems, M-function blocks and WebAssembly support remain unfinished. Uses its own JSON model format rather than native Simulink projects.
+limitations: Early development; compatibility and desktop platform support are maintainer-reported. No .slx/.mdl import or code generation is documented. Multirate and zero-crossing rigor, subsystems, M-function blocks and WebAssembly support remain unfinished. Uses its own JSON model format rather than native Simulink projects.
 summary: Simulink-style block-diagram modeling with a desktop editor, simulation CLI and MatCraft workspace integration.
