@@ -657,6 +657,15 @@
       "pushedAt": "2026-10-26T12:39:30Z",
       "stars": 242
     },
+    "jackuait/blok": {
+      "fetchedAt": "2026-10-26T18:51:32Z",
+      "forks": 0,
+      "isArchived": false,
+      "licenseSpdx": "Apache-2.0",
+      "primaryLanguage": "TypeScript",
+      "pushedAt": "2026-10-26T16:47:13Z",
+      "stars": 43
+    },
     "javy-fernandez/datacraft": {
       "fetchedAt": "2026-10-26T14:33:50Z",
       "forks": 6,
