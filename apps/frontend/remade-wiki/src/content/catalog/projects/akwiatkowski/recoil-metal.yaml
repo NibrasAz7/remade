@@ -1,3 +1,4 @@
+# Scope and limitations are maintainer-reported in the repository documentation.
 slug: recoil-metal
 name: recoil-metal
 authors:
@@ -14,7 +15,7 @@ platforms:
   - macOS
 status: alpha
 compatibility: partial
-description: "New C++23 RTS engine for macOS that renders through Metal and loads Supreme Commander: Forged Alliance maps, models, blueprints and sound banks from a retail install. Its fixed-point simulation replays deterministically and runs FA's own Lua AI unmodified. A separate launcher runs Beyond All Reason on the open-source Recoil engine with a Metal renderer."
+description: A C++23 RTS engine for macOS with a native Metal renderer. Loads Forged Alliance maps, models, blueprints and sound banks from a retail installation. Implements skirmish simulation with fixed-point arithmetic, command-log replay and a Lua adapter for FAF AI. A separate launcher runs Beyond All Reason using the upstream Recoil engine.
 license: GPL-3.0-or-later; GPL-2.0-or-later components
-limitations: "Work in progress: skirmishes play to victory, but gameplay parity is incomplete. Requires a Supreme Commander: Forged Alliance installation for game data, and the updated AI Lua code from Forged Alliance Forever (FAF), fetched at a pinned commit, for AI opponents. Multiplayer is not supported. The Beyond All Reason launcher uses the upstream Recoil engine and is not a reimplementation."
+limitations: Work in progress; no multiplayer or full gameplay parity. Needs a retail Forged Alliance install and pinned FAF AI scripts. Upstream documents a golden replay check diverging from its saved baseline; deterministic replay is not independently verified. The separate BAR launcher uses upstream Recoil and is not a reimplementation.
 summary: Native macOS engine for Forged Alliance skirmishes, using game data from an existing installation.
