@@ -648,6 +648,15 @@
       "pushedAt": "2026-10-26T03:12:31Z",
       "stars": 1256
     },
+    "ipedrax/bimcraft": {
+      "fetchedAt": "2026-10-26T18:54:24Z",
+      "forks": 58,
+      "isArchived": false,
+      "licenseSpdx": "Apache-2.0",
+      "primaryLanguage": "Rust",
+      "pushedAt": "2026-10-26T18:40:51Z",
+      "stars": 443
+    },
     "itsalphaneon/lemon-studio": {
       "fetchedAt": "2026-10-26T14:33:50Z",
       "forks": 26,
