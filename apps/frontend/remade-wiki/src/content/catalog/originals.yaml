@@ -2247,3 +2247,25 @@
   name: PureRef
   url: https://www.pureref.com/
   category: creative
+- slug: tactiq
+  name: Tactiq
+  url: https://tactiq.io/
+  category: productivity
+  aliases:
+    - Tactiq.io
+- slug: read-ai
+  name: Read AI
+  url: https://www.read.ai/
+  category: productivity
+  aliases:
+    - Read.ai
+- slug: granola
+  name: Granola
+  url: https://www.granola.ai/
+  category: productivity
+- slug: xsplit-vcam
+  name: XSplit VCam
+  url: https://www.xsplit.com/vcam
+  category: creative
+  aliases:
+    - VCam
